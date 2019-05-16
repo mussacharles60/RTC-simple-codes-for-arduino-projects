@@ -11,7 +11,7 @@ code no. 1 (set clock).
 
 uint8_t second, minute, hour, wday, day, month, year;
 
-voidid setup() {
+void setup() {
    Serial.begin(9600);
    Wire.begin();
 
